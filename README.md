@@ -1,6 +1,6 @@
-# TSDG:An target-specific deep learning model by fusion of 3D information for de novo drug generation
+# DNMG:An target-specific deep learning model by fusion of 3D information for de novo drug generation
 
-![pipeline](images/mod2.png)
+pipeline:(images/mod2.png)
 
 ### Requirements
 
@@ -22,7 +22,7 @@ In the `data/zinc` folder there will be the `zinc.smi` file that is required for
 `python prepare_data.py     --input ./data/zinc/zinc.csv 
                             --output ./data/zinc/zinc.npy`
 
-## Training TSDG
+## Training DNMG
 
 `python wmain02.py --input ./data/zinc/zinc.npy
                    --output_dir ./savemodel/`
