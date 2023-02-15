@@ -2,6 +2,9 @@
 
 ![pipeline](images/mod2.png)
 
+## Acknowledgements
+We thank the authors of LigDream: Shape-Based Compound Generation for releasing their code. The code in this repository is based on their source code release (https://github.com/compsciencelab/ligdream). If you find this code useful, please consider citing their work.
+
 ### Requirements
 
 Model training is written in `pytorch==1.11.0` and uses `keras==2.4.0` for data loaders. `RDKit==2020.09.5` is needed for molecule manipulation.
